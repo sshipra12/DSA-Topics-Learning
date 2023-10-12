@@ -7,7 +7,8 @@ public:
             return 1;
 
         int nthTerm;
-        nthTerm=fib(n-1)+fib(n-2);
+        nthTerm=fib(n-1)+fib(n-2);\
+        
         return nthTerm;        
     }
 };

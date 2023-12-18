@@ -2,6 +2,7 @@ class Solution {
 public:
     string shortestBeautifulSubstring(string s, int k) {
         int i,left=-1,right=-1,ones=0,mnsize=100;
+        
         // fixing the right pointer upto an index such that it contains the first 'k' ones
         for(i=0;i<=s.size()-1;i++){
             if(s[i]=='1'){

@@ -3,7 +3,7 @@ public:
     int garbageCollection(vector<string>& garbage, vector<int>& travel) {
         int i,j,k,totalTime=0,travelTime=0;
         int arrGarbage[3]={'M','P','G'};
-        for(i=0;i<=3-1;i++){
+        for(i=0;i<=3-1;i++){   // TODO : learning and thinking
             travelTime=0;
             for(j=0;j<=garbage.size()-1;j++){
                 if(j!=0)

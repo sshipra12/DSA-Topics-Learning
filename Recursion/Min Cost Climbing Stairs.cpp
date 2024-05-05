@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    // INCORRECT , need to correct
+    // TODO : INCORRECT solution , need to correct
     int minCostRecursive(int stairInd, vector<int> &stairs){
         // base case
         if(stairInd>=stairs.size())

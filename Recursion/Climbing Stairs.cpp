@@ -9,6 +9,7 @@ public:
 
         return ways;
     }
+
     void noOfWays(int stairIndex, int n, int &ways){
         // base case
         if(stairIndex==n){

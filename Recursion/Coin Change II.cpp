@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // NOTE : THIS IS GIVING WRONG ANSWER, NEED TO UNDERSTAND WHY
+    // TODO : THIS IS GIVING WRONG ANSWER, NEED TO UNDERSTAND WHY
     // state definition: total ways to reach from ith sum to target sum using given coins
     int waysToReachFromIth(int sum, vector<int> &coins, int targetAmount){
         if(sum==targetAmount)

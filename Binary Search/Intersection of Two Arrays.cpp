@@ -3,8 +3,10 @@ public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
         int i;
         vector<int> ans;
+        
         sort(nums1.begin(),nums1.end());
         sort(nums2.begin(),nums2.end());
+        
         for(i=0;i<=nums1.size()-1;i++){
             if(i==0||(nums1[i]!=nums1[i-1])){
                 // we are searching only for each unique elements

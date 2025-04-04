@@ -14,7 +14,8 @@ public:
                     left=right;
                 }
             }
-            else {   // new consecutive 1s' subarray started from (right) index
+            else {   
+                // new consecutive 1s' subarray started from (right) index
                 if(nums[left]!=1)
                     left=right;
             }

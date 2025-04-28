@@ -11,6 +11,7 @@ public:
 
         // using binary search for finding the smallest radius which covers all houses
         // this problem is of type: NNNNNNNYYYYYYY
+        
         low=0;
         high=1e9;
         while(low<high){

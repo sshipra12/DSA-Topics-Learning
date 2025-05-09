@@ -6,6 +6,7 @@ public:
 
         while(right<=n-1){
             if(nums[right]!=1){
+                
                 // then we check if we landed at the end of consecutive 1's subarray or its starting
                 // if left was on 1 then it is the end if consecutive 1's subarray, else it is its starting
               
